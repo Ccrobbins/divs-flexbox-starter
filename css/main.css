@@ -107,6 +107,31 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  color: #fff;
+
+}
+
+header, footer, main {
+  background-color: #222;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header {
+  height: 200px;
+  justify-content: flex-start;
+  font-size: 4em;
+  font-family: 'Comfortaa', cursive;
+}
+
+main {
+  height: 200px;
+  border-bottom: .5px solid #BABABA;
+  font-size: 2rem;
 }
 
 .wrapper {
@@ -130,26 +155,27 @@ body {
   width: 30%;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  border-style: solid;
-  border-color: #BABABA;
-  border-width: .1px;
-  border-top: none;
-  border-bottom: none;
-  border-right: none;
 }
 
 .div-2 p, .div-3 p {
-  padding-left: 5px;
+  border-left: 1px solid #BABABA;
+  padding-left: 20px;
 }
 
-.div-1{
-  border-left: none;
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
 }
 
+nav ul li a img {
+  padding: 20px;
+}
 
-
-
+footer {
+  border-top: .5px solid #BABABA;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
